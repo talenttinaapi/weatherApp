@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Title Section -->
+  <h1>
+    <span class="icon">⛅</span> <span id="current-city">Currently 21° in Tokyo</span>
+  </h1>
+  <div class="temperature">
+    13° / <span>23°</span>
+  </div>
+
+  <!-- Weather Forecast as List Items -->
+  <ul class="weather-forecast">
+    <li>
+      <div class="day">🌧 Tomorrow</div>
+      <div class="temp">10° / 22°</div>
+    </li>
+    <li>
+      <div class="day">☁️ Saturday</div>
+      <div class="temp">15° / 17°</div>
+    </li>
+    <li>
+      <div class="day sunday">☀️ Sunday</div>
+      <div class="temp">25° / 28°</div>
+    </li>
+  </ul>
+
+  <!-- Change City Button -->
+  <button class="change-btn" id="change-city-btn">Change city</button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

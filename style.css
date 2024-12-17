@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 .icon {
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 2.8rem;
+  }
+  
+  .temperature {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+  
+  .temperature span {
+    font-weight: bold;
+  }
+  
+  /* Weather Forecast List */
+  .weather-forecast {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .weather-forecast li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .weather-forecast li:hover {
+    background-color: #fff9c4; 
+  }
+  
+  .day {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .temp {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .sunday {
+    color: orange;
+  }
+  
+  .change-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .change-btn:hover {
+    background-color: #0056b3;
+  }
+  
