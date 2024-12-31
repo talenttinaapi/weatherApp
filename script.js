@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     changeCityButton.addEventListener("click", () => {
       const newCity = prompt("Enter a new city name:");
       if (newCity) {
-        currentCityElement.textContent = `Currently 21° in ${newCity}`;
+        currentCityElement.textContent = `Currently 28° in ${newCity}`;
       }
     });
   });
